@@ -1,6 +1,9 @@
 {
   "name": "@damunga/react-daterange-picker",
   "version": "1.0.0",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/DavidAmunga"
+  },
   "description": "A React Date range picker using Material UI v5",
   "author": {
     "email": "david@davidamunga.com",
@@ -11,11 +14,16 @@
     "url": "https://github.com/DavidAmunga/react-daterange-picker"
   },
   "main": "dist/cjs/index.js",
-	"module": "dist/esm/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts",
   "scripts": {
     "start": "tsc --watch",
     "build": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "rollup": "rollup -c"
   },
   "dependencies": {
     "@emotion/react": "^11.8.1",
