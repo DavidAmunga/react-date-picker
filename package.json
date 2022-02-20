@@ -1,8 +1,8 @@
 {
-  "name": "@damunga/react-daterange-picker",
+  "name": "@davidamunga/react-daterange-picker",
   "version": "1.0.0",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@damunga"
+    "registry": "https://npm.pkg.github.com/@davidamunga"
   },
   "description": "A React Date range picker using Material UI v5",
   "author": {

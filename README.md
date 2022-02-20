@@ -2,8 +2,8 @@
 
 A react date range picker using material-ui components.
 
-<a href='https://www.npmjs.com/package/@damunga/react-daterange-picker'>
-    <img src='https://img.shields.io/npm/v/@damunga/react-daterange-picker.svg' alt='Latest npm version'>
+<a href='https://www.npmjs.com/package/@davidamunga/react-daterange-picker'>
+    <img src='https://img.shields.io/npm/v/@davidamunga/react-daterange-picker.svg' alt='Latest npm version'>
 </a>
 
 ## Live Demo: https://flippingbitss.github.io/react-daterange-picker/
@@ -11,16 +11,19 @@ A react date range picker using material-ui components.
 ## Usage
 
 ```bash
-npm install @damunga/react-daterange-picker --save
+npm install @davidamunga/react-daterange-picker --save
 # or with yarn
-yarn add @damunga/react-daterange-picker
+yarn add @davidamunga/react-daterange-picker
 ```
 
 ## Basic Example
 
 ```tsx
 import React from 'react';
-import { DateRangePicker, DateRange } from '@damunga/react-daterange-picker';
+import {
+  DateRangePicker,
+  DateRange,
+} from '@davidamunga/react-daterange-picker';
 
 type Props = {};
 type State = {
@@ -54,7 +57,7 @@ import React from 'react';
 import {
   DateRangePicker,
   DateRange,
-} from '@damunga/react-daterange-picker';
+} from '@davidamunga/react-daterange-picker';
 
 type Props = {};
 
