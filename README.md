@@ -54,7 +54,7 @@ import React from 'react';
 import {
   DateRangePicker,
   DateRange,
-} from '@matharumanpreet00/react-daterange-picker';
+} from '@damunga/react-daterange-picker';
 
 type Props = {};
 
