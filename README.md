@@ -11,9 +11,9 @@ A react date range picker using material-ui components.
 ## Usage
 
 ```bash
-npm install @matharumanpreet00/react-daterange-picker --save
+npm install @damunga/react-daterange-picker --save
 # or with yarn
-yarn add @matharumanpreet00/react-daterange-picker
+yarn add @damunga/react-daterange-picker
 ```
 
 ## Basic Example
