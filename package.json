@@ -1,0 +1,58 @@
+{
+  "name": "@damunga/react-daterange-picker",
+  "version": "1.0.0",
+  "description": "A React Date range picker using Material UI v5",
+  "author": {
+    "email": "david@davidamunga.com",
+    "name": "David Amunga"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DavidAmunga/react-daterange-picker"
+  },
+  "main": "dist/cjs/index.js",
+	"module": "dist/esm/index.js",
+  "scripts": {
+    "start": "tsc --watch",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.8.1",
+    "@emotion/styled": "^11.8.1",
+    "@mui/icons-material": "^5.4.2",
+    "@mui/material": "^5.4.2",
+    "@mui/styles": "^5.4.2",
+    "@rollup/plugin-commonjs": "^21.0.1",
+    "@rollup/plugin-node-resolve": "^13.1.3",
+    "@rollup/plugin-typescript": "^8.3.0",
+    "date-fns": "^2.17.0",
+    "rollup": "^2.67.3",
+    "rollup-plugin-dts": "^4.1.0"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.2",
+    "@types/react-dom": "^17.0.1",
+    "typescript": "^4.2.2"
+  },
+  "peerDependencies": {
+    "@mui/material": "^5.4.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "keywords": [
+    "react",
+    "component",
+    "react-components",
+    "date-range",
+    "date",
+    "range",
+    "picker",
+    "material-design",
+    "material",
+    "typescript",
+    "npm",
+    "package"
+  ],
+  "license": "MIT"
+}
